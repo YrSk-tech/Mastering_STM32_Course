@@ -1,5 +1,5 @@
 # Mastering_STM32_Course
-All done tasks from Udemy Mastering STM32 microcontrollers course
+All completed tasks from Udemy Mastering STM32 microcontrollers course
 
 ## EEPROM Emulator
 
