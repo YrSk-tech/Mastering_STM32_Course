@@ -31,14 +31,14 @@ Implemented calendar application with Real-time clock. Added back up configurati
 
 https://github.com/YrSk-tech/STM32_RTCbasis
 
-##ADC App
+## ADC App
 
 This application employs an Analog-to-Digital Converter (ADC) to periodically sample data from a potentiometer. Every 300 milliseconds, the ADC converts the analog voltage signal from the potentiometer into a digital value.
 To ensure data integrity, the application includes a timeout mechanism. If the ADC fails to complete a conversion within one second, it aborts the current attempt and initiates a new conversion.
 
 https://github.com/YrSk-tech/STM32_ADCbasis
 
-##IWDG App
+## IWDG App
 
 This application uses an Independent Watchdog (IWDG) to monitor whether the program freezes for more than 1 second. If the program fails to respond within this time, the IWDG triggers a response by turning on LED D2, signaling that the system has encountered an issue.
 
