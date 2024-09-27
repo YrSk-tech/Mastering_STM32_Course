@@ -3,13 +3,15 @@ All completed tasks from Udemy Mastering STM32 microcontrollers course
 
 ## EEPROM Emulator
 
+This application demonstrates how to save and read data from the STM32 EEPROM Emulator. It uses a state machine for debugging purposes, allowing the user to verify if three variables have been successfully saved inside the flash memory.
+
 https://github.com/YrSk-tech/STM32_EEPROM_Emulator
 
 ## USBhid app
 
 An application with USB human interface device. Main idea is to controll microcontroller with by only use of usb device for that i used ST-Link V2 mini, and USB HID Demonstrator to see active LEDs buttons and potentiometer state and give reports to microcontroller for activation of LEDs
 
-## https://github.com/YrSk-tech/STM32_USBhid
+https://github.com/YrSk-tech/STM32_USBhid
 
 ## STM32 USART Advanced App
 
@@ -18,27 +20,32 @@ Upgraded version of USART basis App project with added interrupt and callback fu
 https://github.com/YrSk-tech/STM32_USART_Advanced
 
 ## USART basis App
+
 Simple application for STM32 microcontroller to communicate by uart protocol with Laptop using USB - UART TTL Convertor
 
 https://github.com/YrSk-tech/STM32_USARTbasis
 
 ## RTC basis App
+
 Implemented calendar application with Real-time clock. Added back up configuration with use of Backup RTC register, also added D2 LED to show when microcontroller is backing up data
 
 https://github.com/YrSk-tech/STM32_RTCbasis
 
 ##ADC App
+
 This application employs an Analog-to-Digital Converter (ADC) to periodically sample data from a potentiometer. Every 300 milliseconds, the ADC converts the analog voltage signal from the potentiometer into a digital value.
 To ensure data integrity, the application includes a timeout mechanism. If the ADC fails to complete a conversion within one second, it aborts the current attempt and initiates a new conversion.
 
 https://github.com/YrSk-tech/STM32_ADCbasis
 
 ##IWDG App
+
 This application uses an Independent Watchdog (IWDG) to monitor whether the program freezes for more than 1 second. If the program fails to respond within this time, the IWDG triggers a response by turning on LED D2, signaling that the system has encountered an issue.
 
 https://github.com/YrSk-tech/STM32_TIMbasis
 
 ## STM32 TIM Basic - Timer Period Elapsed Interruption Application
+
 This project shows how to use a basic timer (TIM3) in an STM32 microcontroller to trigger period elapsed interrupts.
 
 LED D2: The timer toggles LED D2 every second.
@@ -49,10 +56,12 @@ After 15 seconds: After 15 seconds of running in the main loop, the HAL_TIM_Peri
 https://github.com/YrSk-tech/STM32_TIMbasis
 
 ## Input Capture App
+
 Capture PWM frequency and duty cycle with Input Capture direct and indirect modes
 https://github.com/YrSk-tech/STM32_IC
 
 ## PWM basis app
+
 Changing brightness of LEDs (D2&D3) with pulse-width modulation
 
 https://github.com/YrSk-tech/STM32_PWMbasis
